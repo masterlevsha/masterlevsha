@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}РЕМОНТ БЫТОВОЙ ТЕХНИКИ ФРЯЗИНО{% endblock title %}
+{% block content %}
+    <!--Main Navigation-->
+    <header>
+      <style>
+        /* Height for devices larger than 576px */
+        @media (min-width: 992px) {
+          #intro {
+            margin-top: -58.59px;
+          }
+        }
+
+      </style>
+      <!-- Background image -->
+      <div id="intro" class="bg-image vh-100 shadow-1-strong">
+        <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
+          <source class="h-100" src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
+        </video>
+        <div class="mask"     style="
+        background: linear-gradient(
+          45deg,
+          rgba(29, 236, 197, 0.7),
+          rgba(91, 14, 214, 0.7) 100%
+        );
+      ">
+          <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">РЕМОНТ БЫТОВОЙ ТЕХНИКИ ФРЯЗИНО</h1>
+              <h4 class="mb-4">Ремонтная мастерская "ЛЕВША"</h4>
+                <h4 class="mb-4">ремонт бытовой техники НА ДОМУ</h4>
+                <h5 class="mb-4">работаем БЕЗ ВЫХОДНЫХ И ПРАЗДНИКОВ</h5>
+                <h5 class="mb-4"><i class="fas fa-phone-square-alt m-2"></i>8 985 025 025 8</h5>
+                <h5 class="mb-4">Режим работы: c 9:00 до 20:00</h5>
+                <h5 class="mb-4">г.Фрязино, ул.Московская, д.5(Вход со двора)</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 gx-5 mb-4">
+                <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+                    <img src="https://i.ibb.co/DtKSbf5/IMG-20210216-170511.jpg" class="img-fluid"  alt=""/>
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 gx-5 mb-4 text-center">
+                <h4><strong>Ремонт бытовой техники</strong></h4>
+                <p class="text-muted">
+                <div class="container">
+                    <h5>Выезд мастера по Фрязино: 500 Руб.</h5>
+                    <p>Наши мастера осуществляют
+                        <strong>ремонт бытовой техники на дому во Фрязино</strong>, а также делают выезд в соседние районы Московской области:</p>
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item">Все микрорайоны Фрязино</li>
+                        <li class="list-group-item">Трубино</li>
+                        <li class="list-group-item">Литвиново</li>
+                        <li class="list-group-item">Щёлково</li>
+                        <li class="list-group-item">Ивантеевка</li>
+                        <li class="list-group-item">Новофрязино</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!--Section: Content-->
+        <div class="list-group text-center">
+            <a href="{% url 'remont-televizorov' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт телевизоров</em></a>
+            <a href="{% url 'remont-stiralnyh-mashin' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт стиральных машин</em></a>
+            <a href="{% url 'remont-posudomoechnyh-mashin' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремон посудомоечных машин</em></a>
+            <a href="{% url 'remont-holodilnikov' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт холодильников</em></a>
+            <a href="{% url 'remont-kofemashin' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт кофемашин</em></a>
+            <a href="{% url 'remont-ehlektroplit' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт электроплит</em></a>
+            <a href="{% url 'remont-varochnyh-panelej' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт варочных панелей</em></a>
+            <a href="{% url 'remont-duhovyh-shkafov' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт духовых шкафов</em></a>
+            <a href="{% url 'remont-mikrovolnovok' %}" class="list-group-item list-group-item-action list-group-item-dark"><em>ремонт микроволновок</em></a>
+        </div>
+    </div>
+
+{% endblock %}
