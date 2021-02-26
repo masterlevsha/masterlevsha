@@ -8,7 +8,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['levsha.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['217.72.11.20', 'levsha.herokuapp.com', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
