@@ -8,7 +8,7 @@ SECRET_KEY = 'f9rh#k^x*2rydg6ze+-(8-^q(695yogt&y4_7!6o4d_^%iuqt5'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['217.72.11.20', '.herokuapp.com', '127.0.0.1', 'мастерская-левша.рф']
+ALLOWED_HOSTS = ['217.72.11.20', '.herokuapp.com', '127.0.0.1', 'мастерская-левша.рф', '104.21.4.162']
 
 SITE_ID = 1
 
