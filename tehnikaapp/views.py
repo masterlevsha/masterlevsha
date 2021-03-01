@@ -39,3 +39,10 @@ def remont_duhovyh_shkafov(request):
 
 def remont_mikrovolnovok(request):
     return render(request, 'tehnikaapp/remont_mikrovolnovok.html')
+
+
+def sitemap(request):
+    return render(request, 'tehnikaapp/sitemap.xml')
+
+def robots(request):
+    return render(request, 'tehnikaapp/robots.txt')
