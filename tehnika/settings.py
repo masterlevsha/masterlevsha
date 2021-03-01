@@ -8,11 +8,15 @@ SECRET_KEY = 'f9rh#k^x*2rydg6ze+-(8-^q(695yogt&y4_7!6o4d_^%iuqt5'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['217.72.11.20', 'levsha.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['217.72.11.20', '.herokuapp.com', '127.0.0.1', '.мастерская-левша.рф']
+
+SITE_ID = 1
 
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
