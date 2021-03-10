@@ -2,8 +2,8 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-SECRET_KEY = 'f9rh#k^x*2rydg6ze+-(8-^q(695yogt&y4_7!6o4d_^%iuqt5'
-#SECRET_KEY = os.environ['SECRET_KEY']
+#SECRET_KEY = 'f9rh#k^x*2rydg6ze+-(8-^q(695yogt&y4_7!6o4d_^%iuqt5'
+SECRET_KEY = os.environ['SECRET_KEY']
 
 
 DEBUG = False
