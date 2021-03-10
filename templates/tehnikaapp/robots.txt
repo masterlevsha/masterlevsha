@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://мастерская-левша.рф/sitemap.xml
+Sitemap: https://xn----7sbabjpc1ble0ckcl3h1e.xn--p1ai/sitemap.xml/
 host: мастерская-левша.рф
 
