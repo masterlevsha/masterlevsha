@@ -13,6 +13,8 @@ urlpatterns = [
     path('remont-varochnyh-panelej/', remont_varochnyh_panelej, name='remont-varochnyh-panelej'),
     path('remont-duhovyh-shkafov/', remont_duhovyh_shkafov, name='remont-duhovyh-shkafov'),
     path('remont-mikrovolnovok/', remont_mikrovolnovok, name='remont-mikrovolnovok'),
+    path('remont-shveinih-mashin/', remont_shveinih_mashin, name='remont-shveinih-mashin'),
+
     path('robots.txt/', robots, name='robots'),
     path('sitemap.xml/', sitemap, name='sitemap'),
 ]
